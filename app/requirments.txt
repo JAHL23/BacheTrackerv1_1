@@ -1,0 +1,8 @@
+tensorflow
+numpy
+scikit-learn
+opencv-python
+Flask
+albumentations
+pandas
+imageio
