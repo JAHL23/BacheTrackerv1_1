@@ -13,7 +13,12 @@ import imageio
 import cv2
 import imghdr
 
+
+
+#Librerias para el modelo
+from sklearn.model_selection import KFold, cross_val_predict
 from sklearn.model_selection import train_test_split
+from sklearn.metrics import roc_curve, auc
 from tensorflow.keras import layers, models # type: ignore
 from tensorflow.keras.layers import Input   # type: ignore
 
